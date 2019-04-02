@@ -1,0 +1,16 @@
+﻿  Game.cpp
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\game.cpp(131): warning C4244: '*=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\game.cpp(218): warning C4244: '*=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+  Setting.cpp
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(154): warning C4477: 'fprintf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned __int64'입니다.
+  c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(154): note: 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(184): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned __int64'입니다.
+  c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(184): note: 이 인수는 버퍼 크기로 사용됩니다.
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(189): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned __int64'입니다.
+  c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(189): note: 이 인수는 버퍼 크기로 사용됩니다.
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(189): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 11의 형식이 'unsigned __int64'입니다.
+  c:\users\hyunkyu\downloads\poketmonster\poketmonster\setting.cpp(189): note: 이 인수는 버퍼 크기로 사용됩니다.
+  코드를 생성하고 있습니다...
+c:\users\hyunkyu\downloads\poketmonster\poketmonster\game.cpp(987): warning C4715: 'GetKey': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  PoKetMonster.vcxproj -> C:\Users\HyunKyu\Downloads\PoKetMonster\x64\Debug\PoKetMonster.exe
