@@ -121,7 +121,6 @@ void AttackTemp()
 
 void Stage::RoundStart(Player & player)
 {
-	Stage::Round = 9;
 	system("cls");
 	list<Hero*>::iterator hiter;
 	int AttackDamage = 0;
@@ -259,6 +258,8 @@ void Stage::RoundStart(Player & player)
 		if (RoundMonster[LoopMon].Hp > 0)			//몬스터 체력 0보다 클때만 때림
 		{
 			Damage -= RoundMonster[LoopMon].Dp;
+			if (Damage <= 0)
+				Damage = 1;
 			RoundMonster[LoopMon].Hp -= Damage;
 			AttackTemp();
 		}

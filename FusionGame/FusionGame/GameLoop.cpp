@@ -452,8 +452,11 @@ int StartMenu(Player &player)
 
 		if (iMenu == SM_Stroy)						//¹» ¸¸µéÁö °í¹Î
 		{
-			time(&startTime);
-			stage->RoundStart(player);
+			if (player.HeroInven.size() > 0)
+			{
+				time(&startTime);
+				stage->RoundStart(player);
+			}
 		}
 		else if(iMenu == SM_ADD)				// ¿µ¿õ Ãß°¡
 		{
